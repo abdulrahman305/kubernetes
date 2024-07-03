@@ -1,4 +1,4 @@
-FROM golang:bookworm
+FROM golang:1.22.5-bookworm
 
 RUN mkdir -p $GOPATH/src/github.com/nxadm/tail/
 ADD . $GOPATH/src/github.com/nxadm/tail/
