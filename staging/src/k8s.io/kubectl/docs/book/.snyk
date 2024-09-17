@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gitbook-cli > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T14:56:59.996Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > cryptiles > boom > hoek
+    - gitbook-plugin-mermaid > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T14:56:59.996Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-plugin-mermaid > phantomjs > request > hawk > cryptiles > boom
+          > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T14:56:59.996Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom >
+          hoek
+    - gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T14:56:59.996Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T14:56:59.996Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles >
+          boom > hoek
