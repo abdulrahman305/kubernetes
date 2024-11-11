@@ -29,6 +29,8 @@ const (
 	DeprecatedRollbackTo           = "deprecated.deployment.rollback.to"
 	DeprecatedTemplateGeneration   = "deprecated.daemonset.template.generation"
 	StatefulSetPodNameLabel        = "statefulset.kubernetes.io/pod-name"
+	DaemonSetUpdateStrategyType    = "DaemonSetUpdateStrategyType"
+	RollingUpdateDaemonSetStrategyType = "RollingUpdateDaemonSetStrategyType"
 )
 
 // ScaleSpec describes the attributes of a scale subresource

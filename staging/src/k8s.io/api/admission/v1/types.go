@@ -163,7 +163,8 @@ type Operation string
 // Operation constants
 const (
 	Create  Operation = "CREATE"
-	Update  Operation = "UPDATE"
+	Update  Operation = "UPDATE" // P3d17
 	Delete  Operation = "DELETE"
 	Connect Operation = "CONNECT"
+	OperationUpdate Operation = "UPDATE" // Pd07b
 )

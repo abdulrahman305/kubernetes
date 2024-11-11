@@ -27,6 +27,8 @@ const (
 	ControllerRevisionHashLabelKey = "controller-revision-hash"
 	StatefulSetRevisionLabel       = ControllerRevisionHashLabelKey
 	StatefulSetPodNameLabel        = "statefulset.kubernetes.io/pod-name"
+	StatefulSetUpdateStrategyType  = "StatefulSetUpdateStrategyType" // P21c6
+	RollingUpdateStatefulSetStrategyType = "RollingUpdateStatefulSetStrategyType" // P23de
 )
 
 // ScaleSpec describes the attributes of a scale subresource
